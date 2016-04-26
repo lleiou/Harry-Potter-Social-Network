@@ -71,7 +71,7 @@ Garrick Ollivander
 Gellert Grindelwald		
 George Weasley		
 Gilderoy Lockhart		
-Ginevra Weasley	(Ginny, Molly)	
+Ginevra Weasley	(Ginny)	
 Godric Gryffindor		
 Grawp		
 Gregorovitch		
@@ -79,9 +79,9 @@ Gregory Goyle Jr
 Gregory Goyle Sr		
 Griphook		
 Hannah Abbott		
-Harry Potter	(James)	
+Harry Potter
 Hedwig		
-Helena Ravenclaw	(The, Grey)	
+Helena Ravenclaw	(The Grey)	
 Helga Hufflepuff		
 Hepzibah Smith		
 Hermione Granger	(Jean)	
@@ -116,7 +116,7 @@ Merope Gaunt
 Michael Corner		
 Millicent Bulstrode		
 Minerva McGonagall		
-Molly Weasley		
+Molly Weasley	(Mrs Weasley)		
 Morfin Gaunt		
 Mundungus Fletcher		
 Muriel		
@@ -126,8 +126,7 @@ Narcissa Malfoy	(Cissy)
 Neville Longbottom		
 Newt Scamander		
 "Nearly Headless" Nick		
-Nicolas Flamel		
-Mrs. Norris		
+Nicolas Flamel				
 Nymphadora Tonks	(Dora)	
 Oliver Wood		
 Olympe Maxime		
@@ -153,7 +152,7 @@ Rita Skeeter
 Rodolphus Lestrange		
 Rolanda Hooch		
 Romilda Vane		
-Ronald Weasley	(Ron, Bilius)	
+Ronald Weasley	(Ron)	
 Ronan		
 Madam Rosmerta		
 Rowena Ravenclaw		
@@ -181,7 +180,7 @@ Vincent Crabbe Sr
 Lord Voldemort	(Tom, Marvolo)	
 Walden Macnair		
 Wilhelmina Grubbly-Plank		
-William Weasley	(Bill, Arthur)	
+William Weasley	(Bill)	
 Winky		
 Xenophilius Lovegood		
 Yaxley		
