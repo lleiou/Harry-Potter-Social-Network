@@ -10,9 +10,9 @@ output: html_document
 ### Contents:
 #### [1. Introduction](#1)
 #### [2. Raw Text processing] (#2)
-#### [3. Text Mining] <a name="3">(#3)
-#### [4. Network Building] <a name="4">(#4)
-#### [5. Sorting Hat] <a name="5"></a>(#5)
+#### [3. Text Mining](#3)
+#### [4. Network Building] (#4)
+#### [5. Sorting Hat](#5)
   
 ## 1 Introduction <a name="1"></a>
 In this project, we explored the Harry Potter series using text mining techniques and visualized the network of the leading characters. Moreover, an interactivce webpage was created to mimic the job of the sorting hat in the novel.
