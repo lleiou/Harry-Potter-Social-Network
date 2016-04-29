@@ -13,7 +13,7 @@ output: html_document
 #### [3. Text Mining](#3)
 #### [4. Network Building](#4)
 #### [5. Sorting Hat](#5)
-#### [5. Reference](#6)
+#### [6. Reference](#6)
 
 <a name="1"></a>  
 ## 1 Introduction 
@@ -36,10 +36,10 @@ After removing all the stopwords, we calcualted the cosine similarity between ea
 We created worldcoulds for each novel. In order to make the wordcloud more meaningful, apart from removing all the stopwords, we also deleted the names of the three main characters: Harry, Ron and Hermione, in all situations.
 
 Book1:
-<p align="center"><img src="output/word cloud/book1.png" width=450 height=300></p>
+<p align="center"><img src="output/word cloud/book1.jpg" width=450></p>
 
 Book7:
-<p align="center"><img src="output/word cloud/book7.png" width=450 height=300></p>
+<p align="center"><img src="output/word cloud/book7.png" width=600></p>
  
 <a name="4"></a>
 ## 4 Network Building
@@ -55,7 +55,7 @@ We built a multi-class classifier that performs the job of the Sorting Hat in th
 
 At last, we built a webpag to present everthing we obatined so far.
 
-<a name=""></a>
+<a name="6"></a>
 ## 6 Refrence 
 +  [inside look at components of engine] (https://www.mapr.com/blog/inside-look-at-components-of--engine)
 +  [large scale recommender system](http://bigdata.ices.utexas.edu/project/large-scale-recommender-systems)
