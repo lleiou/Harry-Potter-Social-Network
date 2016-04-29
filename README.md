@@ -33,10 +33,10 @@ After removing all the stopwords, we calcualted the cosine similarity between ea
 We created worldcoulds for each novel. In order to make the wordcloud more meaningful, apart from removing all the stopwords, we also deleted the names of the three main characters: Harry, Ron and Hermione, in all situations.
 
 Book1:
-<p,align="center"><img src="output/word cloud/book1.png" width=450 height=300 ></p>
+<p align="center"><img src="output/word cloud/book1.png" width=450 height=300></p>
 
 Book7:
-<img src="output/word cloud/book7.png" width=450 height=300 align="center">
+<p align="center"><img src="output/word cloud/book7.png" width=450 height=300></p>
 
 ## 4 Network Building
 +  Building Network using Adaboost 
