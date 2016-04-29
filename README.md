@@ -8,13 +8,13 @@ output: html_document
 ### To see our app:http://lleiou.github.io/4249FinalProject/index.html
 
 ### Contents:
-#### 1. Introduction
-#### 2. Raw Text processing
-#### 3. Text Mining
-#### 4. Network Building
-#### 5. Sorting Hat
+#### 1. Introduction <a name="1"></a>
+#### 2. Raw Text processing <a name="2"></a>
+#### 3. Text Mining <a name="3"></a>
+#### 4. Network Building <a name="4"></a>
+#### 5. Sorting Hat <a name="5"></a>
   
-## 1 Introduction
+## [1 Introduction](#1)
 In this project, we explored the Harry Potter series using text mining techniques and visualized the network of the leading characters. Moreover, an interactivce webpage was created to mimic the job of the sorting hat in the novel.
 
 ## 2 Raw Text Processing
