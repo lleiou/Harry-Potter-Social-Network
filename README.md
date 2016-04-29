@@ -16,8 +16,8 @@ output: html_document
   
 ## 1 Introduction <a name="1"></a>
 In this project, we explored the Harry Potter series using text mining techniques and visualized the network of the leading characters. Moreover, an interactivce webpage was created to mimic the job of the sorting hat in the novel.
-
-## 2 Raw Text Processing <a name="2"></a>
+<a name="2"></a>
+## 2 Raw Text Processing 
 +  Name Entity Recognization
 
 The complete novel was downloaded from: https://github.com/abishekk92/potter/tree/master/dataset
