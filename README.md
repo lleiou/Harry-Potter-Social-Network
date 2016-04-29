@@ -8,16 +8,16 @@ output: html_document
 ### To see our app:http://lleiou.github.io/4249FinalProject/index.html
 
 ### Contents:
-#### 1. Introduction <a name="1"></a>
-#### 2. Raw Text processing <a name="2"></a>
-#### 3. Text Mining <a name="3"></a>
-#### 4. Network Building <a name="4"></a>
-#### 5. Sorting Hat <a name="5"></a>
+#### [1. Introduction](#1)
+#### 2. Raw Text processing (#2)
+#### 3. Text Mining <a name="3">(#3)
+#### 4. Network Building <a name="4">(#4)
+#### 5. Sorting Hat <a name="5"></a>(#5)
   
-## [1 Introduction](#1)
+## 1 Introduction <a name="1"></a>
 In this project, we explored the Harry Potter series using text mining techniques and visualized the network of the leading characters. Moreover, an interactivce webpage was created to mimic the job of the sorting hat in the novel.
 
-## 2 Raw Text Processing
+## 2 Raw Text Processing <a name="1"></a>
 +  Name Entity Recognization
 
 The complete novel was downloaded from: https://github.com/abishekk92/potter/tree/master/dataset
@@ -38,12 +38,12 @@ Book1:
 Book7:
 <p align="center"><img src="output/word cloud/book7.png" width=450 height=300></p>
 
-## 4 Network Building
+## 4 Network Building <a name="1"></a>
 +  Building Network using Adaboost 
 
 We extracted two features, polarity and subjectivity, from the processed text file using sentiment analysis. Furthermore, a co-coccurrence matrix was procuded for each novel that counts the the number of occurrence of each pair of characters. The two features were normalized using the entries in the co-occurrence matrix and these features were taken by Adaboost to classify between characters with positive realationships and those with negative relationships. 
 
-## 5 Sorting Hat 
+## 5 Sorting Hat <a name="1"></a>
 +  The Sorting Hat
 
 We built a multi-class classifier that performs the job of the Sorting Hat in the novel. We parsed the following personal information: name, gender, eyecolor, hair color and House, for each character of our age who attended Hogwarts as features. Also we used random forest as classifier to find the House that corresponds to the input. 
