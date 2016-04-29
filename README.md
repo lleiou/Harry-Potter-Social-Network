@@ -9,9 +9,9 @@ output: html_document
 
 ### Contents:
 #### [1. Introduction](#1)
-#### [2. Raw Text processing] (#2)
+#### [2. Raw Text processing](#2)
 #### [3. Text Mining](#3)
-#### [4. Network Building] (#4)
+#### [4. Network Building](#4)
 #### [5. Sorting Hat](#5)
   
 ## 1 Introduction <a name="1"></a>
