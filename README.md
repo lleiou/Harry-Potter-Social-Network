@@ -36,7 +36,7 @@ Book1:
 <p><center><img src="output/word cloud/book1.png" width=450 height=300 ></center></p>
 
 Book7:
-<p><center><img src="output/word cloud/book7.png" width=450 height=300 ></center></p>
+<img src="output/word cloud/book7.png" width=450 height=300 align="center">
 
 ## 4 Network Building
 +  Building Network using Adaboost 
