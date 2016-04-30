@@ -1,0 +1,82 @@
+<!doctype html>
+<!-- Website Template by freewebsitetemplates.com -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HP Family Tree</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/mobile.css" media="screen and (max-width : 568px)">
+	<script type=text/javascript src="../static/js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+        $('#btnSubmit').click(function() {
+          
+          $.ajax({
+            url: '/Back3',
+            data: $('form').serialize(),
+            type: 'POST',
+            success: function(response) {
+                window.location.href = "/sortinghat2";
+                //location.reload();
+                console.log(response);
+            },
+            error: function(error) {
+                //location.reload();
+                console.log(error);
+            }
+          });
+        });
+      });
+	</script>
+
+</head>
+<body>
+	<div id="header">
+		<a href="/sortinghat.html" class="logo">
+			<img src="../static/images/222.png" alt="" align="middle">
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/index.html">home</a>
+			</li>
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/about.html">about</a>
+			</li>
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/gallery.html">bookstand</a>
+			</li>
+			<li class="selected">
+				<a href="/">sorting hat</a>
+			</li>
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/contact.html">contact</a>
+			</li>
+			
+		</ul>
+	</div>
+	<div>
+
+	<p></p>
+
+	</div>
+<!-- keep the above body -->
+	<div id="body">
+		<h1><span>Hogwarts houses: Gryffindor</span></h1>
+		<div>
+			<img src="http://img09.deviantart.net/ab05/i/2011/197/c/9/gryffindor_flag_by_kooro_sama-d3ud5ym.png" alt="" height="400",width="600">
+			<div class="article">
+				<h3>Gryffindor is one of the four Houses of Hogwarts School of Witchcraft and Wizardry, founded by Godric Gryffindor.</h3>
+				<p>
+					The particular characteristics of students Sorted into Gryffindor are courage, chivalry, and determination. The emblematic animal is a lion, and its colours are red and gold. Sir Nicholas de Mimsy-Porpington, also known as "Nearly Headless Nick" is the house ghost.  	
+				</p>
+				<p>
+					Gryffindor corresponds roughly to the element of fire, and it is for that reason that the colours red and gold were chosen to represent the House. The colour of fire corresponds to that of a lion as well, red representing the mane and tail and gold representing the coat.
+				</p>
+			</div>
+			<button id="btnSubmit" type="button" class="btn btn-lg btn-primary btn-block" style="height:60px;width:200px;margin:auto">I can't believe it! Try again!</button>
+		<div>		
+	</div>
+	
+</body>
+</html>

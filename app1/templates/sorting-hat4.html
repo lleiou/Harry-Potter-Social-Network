@@ -1,0 +1,81 @@
+<!doctype html>
+<!-- Website Template by freewebsitetemplates.com -->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HP Family Tree</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/mobile.css" media="screen and (max-width : 568px)">
+	<script type=text/javascript src="../static/js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+        $('#btnSubmit').click(function() {
+          
+          $.ajax({
+            url: '/Back4',
+            data: $('form').serialize(),
+            type: 'POST',
+            success: function(response) {
+                window.location.href = "/sortinghat2";
+                //location.reload();
+                console.log(response);
+            },
+            error: function(error) {
+                //location.reload();
+                console.log(error);
+            }
+          });
+        });
+      });
+	</script>
+</head>
+<body>
+	<div id="header">
+		<a href="index.html" class="logo">
+			<img src="../static/images/222.png" alt="" align="middle">
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/index.html">home</a>
+			</li>
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/about.html">about</a>
+			</li>
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/bookstand.html">bookstand</a>
+			</li>
+			<li class="selected">
+				<a href="/">sorting hat</a>
+			</li>
+			<li>
+				<a href="http://lleiou.github.io/4249FinalProject/contact.html">contact</a>
+			</li>
+			
+		</ul>
+	</div>
+	<div>
+
+	<p></p>
+
+	</div>
+<!-- keep the above body -->
+	<div id="body">
+		<h1><span>Hogwarts houses: Ravenclaw</span></h1>
+		<div>
+			<img src="http://img07.deviantart.net/368c/i/2011/197/1/a/ravenclaw_flag_by_kooro_sama-d3x5pj3.png" alt="" height="400",width="600">
+			<div class="article">
+				<h3>Ravenclaw House is one of the four Houses of Hogwarts School of Witchcraft and Wizardry, founded by Rowena Ravenclaw.</h3>
+				<p>
+					Members of this house are characterised by their wit, learning, and wisdom. Its house colours are blue and bronze, and its symbol is an eagle.The house ghost, who in life was the daughter of the house's founder Rowena Ravenclaw, is the Grey Lady.
+				</p>
+				<p>
+					Ravenclaw roughly corresponds with the element of air; the House colours blue and bronze were chosen to represent the sky and eagle feathers respectively, both having much to do with air.  	
+				</p>
+			</div>
+			<button id="btnSubmit" type="button" class="btn btn-lg btn-primary btn-block" style="height:60px;width:200px;margin:auto">I can't believe it! Try again!</button>
+		<div>		
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Movie Recommendation System</title>
+
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/movie.css" rel="stylesheet">
+    <script type=text/javascript src="../static/js/jquery-2.2.3.min.js"></script>  
+
+    <script type="text/javascript">        
+     var mydata = {};
+     $.getJSON("../static/js/data.json", function(data) { 
+     var str1, str2, str3, img1, img2, img3, mov1, mov2, mov3;
+     //console.log(data[0].url1)
+     mov1 = data[0].url1;
+     //console.log(mov1)
+     mov2 = data[0].url2;
+     mov3 = data[0].url3;
+     str1 = data[0].title1.link(mov1);
+     str2 = data[0].title2.link(mov2);
+     str3 = data[0].title3.link(mov3);
+     img1 = data[0].imgUrl1;
+     img2 = data[0].imgUrl2;
+     img3 = data[0].imgUrl3;
+      //console.log(img1)
+      //console.log(img2)     
+     document.getElementById("demo11").innerHTML = str1;
+     document.getElementById('demo12').src = img1;
+     document.getElementById("demo21").innerHTML = str2;
+     document.getElementById("demo22").src = img2;
+     document.getElementById("demo31").innerHTML = str3;
+     document.getElementById("demo32").src = img3;
+     });      
+    </script>
+
+    <script type="text/javascript">  
+      $(function() {
+        $('#btnSubmit').click(function() {
+          
+          $.ajax({
+            url: '/Recommend',
+            data: $('form').serialize(),
+            type: 'POST',
+            success: function(response) {
+                //window.location.assign("/showNewUser");
+                //location.href = "/showNewUser";
+                location.reload();
+                console.log(response);
+            },
+            error: function(error) {
+                //location.reload();
+                console.log(error);
+            }
+          });
+        });
+      });
+    </script>   
+  </head>
+ 
+  <body> 
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="/">Home</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Movie Recommendation System</h3>
+      </div>
+ 
+      <div class="jumbotron">
+        <h2>Type in Movie Names and Ratings</h2>
+        <p>
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <input type="text" class="form-control" name="movie1" placeholder="Movie 1"  autofocus>
+            <input type="text" class="form-control" name="movie2" placeholder="Movie 2" >
+            <input type="text" class="form-control" name="movie3" placeholder="Movie 3" > 
+            <input type="text" class="form-control" name="movie4" placeholder="Movie 4" > 
+            <input type="text" class="form-control" name="movie5" placeholder="Movie 5" >
+            <input type="number" class="form-control" name="rate1" placeholder="Rating 1" >
+            <input type="number" class="form-control" name="rate2" placeholder="Rating 2" >
+            <input type="number" class="form-control" name="rate3" placeholder="Rating 3" >
+            <input type="number" class="form-control" name="rate4" placeholder="Rating 4" >
+            <input type="number" class="form-control" name="rate5" placeholder="Rating 5" >
+          
+          <p></p>
+               
+            <button id="btnSubmit" type="button" class="btn btn-lg btn-primary btn-block" style="height:60px;width:200px;margin:auto">Recommend</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4" style="display:table-cell; vertical-align:middle; text-align:center">
+          <div id="demo11">
+          </div>
+          <img id="demo12" width=200 height=250 />      
+        </div>
+        <div class="col-md-4" style="display:table-cell; vertical-align:middle; text-align:center">
+          <div id="demo21">
+          </div>
+          <img id="demo22" width=200 height=250 />
+        </div>
+        <div class="col-md-4" style="display:table-cell; vertical-align:middle; text-align:center">
+          <div id="demo31">
+          </div>
+          <img id="demo32" width=200 height=250 />
+        </div>
+      </div>    
+
+      <footer class="footer">
+        <p>&copy; W4249_project4_Team1_2016</p>
+      </footer>
+ 
+    </div>
+
+
+   
+
+  </body>
+</html>
