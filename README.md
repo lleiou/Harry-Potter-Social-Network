@@ -5,7 +5,9 @@ date: "04/27/2016"
 output: html_document
 ---
 
-### Our webpage: http://lleiou.github.io/4249FinalProject/index.html
+### Our webpage: 
+
+<a href="http://lleiou.github.io/4249FinalProject/index.html" target="_blank">HP Social Network</a>
 
 ### Contents:
 #### [1. Introduction](#1)
