@@ -1,6 +1,6 @@
 ---
 title: "When Text Mining meets Harry Potter series"
-author: "Ao liu, Chenlu Ji, Hexiu Ye, Yueying Teng, Yusen Wang"  
+author: "Chenlu Ji, Hexiu Ye, Yueying Teng, Yusen Wang, Ao Liu"  
 date: "04/27/2016"
 output: html_document
 ---
