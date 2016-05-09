@@ -5,7 +5,7 @@ date: "04/27/2016"
 output: html_document
 ---
 
-### To see our app:http://lleiou.github.io/4249FinalProject/index.html
+### Our webpage: http://lleiou.github.io/4249FinalProject/index.html
 
 ### Contents:
 #### [1. Introduction](#1)
