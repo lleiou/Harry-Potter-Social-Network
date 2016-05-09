@@ -8,6 +8,7 @@ output: html_document
 ### Our webpage: 
 
 <a href="http://lleiou.github.io/4249FinalProject/index.html" target="_blank">HP Social Network</a>
+<p class="view"><a href="https://github.com/lleiou" target="_blank">@lleiou on GitHub</a></p>
 
 ### Contents:
 #### [1. Introduction](#1)
