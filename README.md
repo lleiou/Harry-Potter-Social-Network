@@ -24,7 +24,7 @@ In this project, we explored the Harry Potter series using text mining technique
 +  Name Entity Recognization
 
 The complete novel was downloaded from: https://github.com/abishekk92/potter/tree/master/dataset
-First,each novel was read by Python line by line to a new text file. Following this, a dictionary containing each character's fullname and nicknames called ep_nick was created for evry book. These fullnames were detected by using a package called nltk in Python and put into a list that is combined with each character's nicknames that we obtained from the Internet.
+First,each novel was read by Python line by line to a new text file. Following this, a dictionary containing each character's fullname and nicknames called ep_nick was created for every book. These fullnames were detected by using a package called nltk in Python and put into a list that is combined with each character's nicknames that we obtained from the Internet.
 
 <a name="3"></a>
 ## 3 Text Mining 
